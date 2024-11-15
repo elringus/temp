@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "Echonauts.data.unityweb",
+"asmCodeUrl": "Echonauts.asm.code.unityweb",
+"asmMemoryUrl": "Echonauts.asm.memory.unityweb",
+"asmFrameworkUrl": "Echonauts.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}

@@ -1,0 +1,67 @@
+# Site settings
+name: 'Elringus'
+title: 'Elringus'
+description: 'Artyom Sovetnikov'
+meta_description: 'Elringus personal website / blog.'
+logo: /assets/images/logo.png
+# Author image is used in site sidebar and greetings in the home page hero text
+author:
+  image: authorimage.webp
+  greetings:
+favicon: /assets/images/logo.png
+url: https://elringus.me
+disqus: 'elringus'
+mailchimp_url:
+ga_analytics: 'UA-62903242-1'
+
+# Contact form settings
+contact_page_description: 'Fill in the required fields and press "SEND MESSAGE" button to send me an e-mail. All the data is handled by <a href="https://formspree.io/">formspree.io</a>.'
+thankyou_page_description: 'Your message has been successfully sent.'
+
+# Social links
+vk: 'elringus'
+twitter: 'elringus'
+github: 'elringus'
+linkedin: 'artsov'
+
+# Navigation
+navigation:
+  - text: Home
+    url: /
+  - text: About
+    url: /about/
+  - text: Unity Assets
+    url: /unity-assets/
+  - text: Engines of Play
+    url: /engines-of-play/
+  - text: ʕノ•ᴥ•ʔノ ︵ ┻━┻
+    url: /archive/
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-tagsgenerator
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title/
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logo.png

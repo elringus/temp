@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "BlendModes.data.unityweb",
+"asmCodeUrl": "BlendModes.asm.code.unityweb",
+"asmMemoryUrl": "BlendModes.asm.memory.unityweb",
+"asmFrameworkUrl": "BlendModes.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#222C36"
+}

@@ -1,0 +1,76 @@
+﻿html { 
+  background: url('background.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.icon {
+	padding: 5px;
+	padding-right: 25px;
+	float: right;
+}
+
+.panel {
+	background-image: url('panel.png');
+	width: 600px;
+	height: 352px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.text {
+	font-family: "Lucida Console", Monaco, monospace;
+	padding: 25px;
+	display: block;
+	color: #e0eeee;
+	margin-bottom: 10px;
+	line-height: 120%;
+}
+
+a {
+	color: #56e1e1;
+}
+	a:hover {
+		color: #7defef;
+	}
+
+.download {
+	color: #e0eeee;
+	text-decoration: none;
+	text-align: center;
+	line-height: 300%;
+	background-image: url('button-normal.png');
+	font-family: "Lucida Console", Monaco, monospace;
+	font-weight: bold;
+	display: block;
+	width: 350px;
+	height: 50px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-transition: color, background-image 0.2s;
+	-moz-transition: color, background-image 0.2s;
+	-ms-transition: color, background-image 0.2s;
+	-o-transition: color, background-image 0.2s;
+	transition: color, background-image 0.2s;
+}
+
+	.download:hover {
+		background-image: url('button-hover.png');
+	}
